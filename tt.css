@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+/* 1st prjt */
+/*.card{
+    width: 200px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+ .card img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    background: skyblue;
+    border: 1px solid grey;
+} */
+/* second prjt */
+/* .container{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.container i{
+    position: absolute;
+    color: #fff;
+    font-size: 75px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+
+} */
+/* third project  */
+/* .main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor{
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+} */
+/* fourth project  */
+/* .main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+
+}
+.elem h1{
+    font-size: 10vw;
+}
+.elem img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+} */
+
+/* fifth project */
+
+/* .storiya{
+    height: 100px;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+#storiya::-webkit-scrollbar{
+    display: none !important;
+
+}
+.card{
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+}
+.story{
+    border: 3px solid red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+/* sixth project */
+/* .rectbox{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+    align-items: center;
+
+} */
+/* seventh project */
+/* .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.card{
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:100px;
+    background-color: blue;
+    
+}
+.cont_1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.min_box{
+    background-color: white;
+    padding: 10px;
+}
+.bubble_box{
+    background-color: rgb(19, 160, 19);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+.bubble{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100%-100px);
+    padding: 20px;
+} */
+
+/* eight project */
+
+.main{
+    width: 100%;
+    background-color: white;
+
+}
+.nav{
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right_content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero{
+    
+    padding: 10vw 10vw;
+}
+.hero p{
+    letter-spacing: -1px;
+    font-size: 60px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+.home_last{
+    padding: 5vw 10vw;
+    width: 70%;
+}
+.home_last p{
+    font-weight: 500;
+    font-size: 40px;
+}
+.home_last p::selection{
+    color: white;
+    background-color: black;
+}
+.feature{
+    padding: 5vw 10vw;
+}
+.feature_h1{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    
+}
+.image_content{
+    padding: 5vw 10vw;
+}
+.fimage{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+
+}
+.elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+.leftside{
+  overflow: hidden;
+  width: 45%;
+  height: inherit;
+  
+}
+.rightside{
+  height: inherit;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+.image_portion{
+   
+    width: 90%;
+    height: 80%;
+    background-color: aqua;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btk{
+    border-radius: 100px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.dev{
+    padding: 5vw 10vw;
+}
+.dev h1{
+    width: 60%;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+.dev p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 20px;
+    font-size: 30px;
+    
+}
+.slide_card{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+}
+.card{
+    width: 30%;
+    
+}
+.image_card{
+    width: 100%;
+    height: 250px;
+}
+.image_card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.tag{
+    margin-top: 10px;
+    width: fit-content;
+    padding: 5px 3px;
+    font-size: 15px;
+    font-weight:400;
+    background-color: gray;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
